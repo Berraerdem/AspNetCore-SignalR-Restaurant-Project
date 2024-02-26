@@ -1,0 +1,3 @@
+Kullanıcılar, restorandan online olarak sipariş verebilir veya restorana rezervasyon oluşturabilirler. Online sipariş vermek için kullanıcıların giriş yapması gerekmektedir. Daha sonra, menüdeki istedikleri yiyeceği veya içeceği sepetlerine ekleyebilirler.
+
+Siparişler ve rezervasyonlar, admin panelinde SignalR teknolojisi kullanılarak sayfa yenilemeden canlı olarak görüntülenir. Adminler, bu canlı görüntü üzerinden siparişleri ve rezervasyonları inceleyerek onaylama veya iptal etme yetkisine sahiptir. Herhangi bir durum değişikliği, ilgili kullanıcının gerçek e-posta adresine otomatik olarak gönderilir.Bu sayede, kullanıcılar ve adminler işlemleri anlık olarak takip edebilirler ve herhangi bir değişiklik olduğunda hızlı bir şekilde bilgilendirilirler.
